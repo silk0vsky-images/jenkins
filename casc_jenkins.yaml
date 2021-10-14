@@ -1,0 +1,8 @@
+jenkins:
+    systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin\n\n"
+    numExecutors: 4
+    globalNodeProperties:
+    - envVars:
+        env:
+        - key: GITHUB_JENKINS_CREDENTIALS_ID
+          value: github-jenkins-credentials-id
